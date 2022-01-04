@@ -10,17 +10,15 @@ span{
 }
 .top{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
 
 .half-space{
-    padding:0 25px;
+    padding:0 5%;
     width: 50%;
-
-}
-p{
-    font-size: 20px;
-    text-align: justify;
-
+   
 }
 
 .half-space a{
@@ -32,10 +30,18 @@ p{
     color: black;
     font-weight: bold;
     border-radius: 8px;
-    
+        
 }
 
 .half-space img{
-    width: 80%;
-    
+    width: 90%;
+        
+}
+
+.middle{
+    display: flex;
+    margin: 100px 0;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
