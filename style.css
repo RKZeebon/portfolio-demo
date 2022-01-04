@@ -45,3 +45,46 @@ span{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+
+.bottom{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#ex{
+    margin-bottom: -30px;
+  
+}
+.moto{
+    color: orange;
+}
+.bottom .half-space{
+    width: 40%;
+    margin: 5%;
+    box-shadow: 10px 10px 50px gray;
+    padding: 50px 40px;
+    border-radius: 15px;
+    
+}
+#ex1{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+
+}
+
+#ex2{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+
+}
+
+
+
+footer{
+    text-align: center;
+}
